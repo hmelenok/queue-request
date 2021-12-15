@@ -4,9 +4,9 @@
 
 ## Problem and solution
 ### Problem
-![Problem schema](/assets/Micro queue JS-Problem.drawio.png?raw=true)
+![Problem schema](/assets/Micro-queue-JS-Problem.drawio.png?raw=true)
 ### Possible solution
-![Solution schema](/assets/Micro queue JS-Solution.drawio.png?raw=true)
+![Solution schema](/assets/Micro-queue-JS-Solution.drawio.png?raw=true)
 
 ## Install
 
