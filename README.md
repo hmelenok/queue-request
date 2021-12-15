@@ -14,7 +14,22 @@ $ yarn add queue-request
 ```js
 const queueRequest = require('queue-request');
 
-queueRequest();
+
+//One place in code
+queueRequest({request: APIRequest, params: 1, processDelay: 90});
+//Another place in code
+queueRequest({request: APIRequest, params: 2, processDelay: 90});
+//Another place in code
+queueRequest({request: APIRequest, params: 3, processDelay: 90});
+//Another place in code
+queueRequest({request: APIRequest, params: 4, processDelay: 90});
+
+/**
+ * If code was called in margin of processDelay
+ * in callstack it will call API only once
+ * And resolve to same code
+ */
+
 ```
 
 ## Publish
