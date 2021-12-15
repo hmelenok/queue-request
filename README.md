@@ -1,4 +1,4 @@
-# Micro queue 
+# queue-request
 
 > queue-request - library to collect duplicated async task in 1 queve, make 1 operation and return same Promise to every request
 
