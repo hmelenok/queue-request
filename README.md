@@ -2,6 +2,11 @@
 
 > queue-request - library to collect duplicated async task in 1 queve, make 1 operation and return same Promise to every request
 
+## Problem and solution
+### Problem
+![Problem schema](/assets/Micro queue JS-Problem.drawio.png?raw=true)
+![Solution schema](/assets/Micro queue JS-Solution.drawio.png?raw=true)
+
 ## Install
 
 ```
