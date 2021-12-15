@@ -1,19 +1,20 @@
-# xxxxxx [![CircleCI](https://circleci.com/gh/shelfio/xxxxxx/tree/master.svg?style=svg)](https://circleci.com/gh/shelfio/xxxxxx/tree/master)![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
+# Micro queue 
 
-> xxxxxx description
+> queue-request - library to collect duplicated async task in 1 queve, make 1 operation and return same Promise to every request
 
 ## Install
 
 ```
-$ yarn add @shelf/xxxxxx
+$ yarn add queue-request
+
 ```
 
 ## Usage
 
 ```js
-const {getFoo} = require('@shelf/xxxxxx');
+const queueRequest = require('queue-request');
 
-getFoo();
+queueRequest();
 ```
 
 ## Publish
@@ -27,4 +28,4 @@ $ git push origin master --tags
 
 ## License
 
-MIT © [Shelf](https://shelf.io)
+MIT ©
