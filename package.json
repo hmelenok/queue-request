@@ -1,6 +1,6 @@
 {
   "name": "queue-request",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "library to collect duplicated async task in 1 queve, make 1 operation and return same Promise to every request",
   "license": "MIT",
   "author": {
