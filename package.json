@@ -1,12 +1,12 @@
 {
-  "name": "@shelf/xxxxxx",
+  "name": "queue-request",
   "version": "0.0.0",
-  "description": "xxxxxx",
+  "description": "library to collect duplicated async task in 1 queve, make 1 operation and return same Promise to every request",
   "license": "MIT",
   "author": {
-    "name": "Vlad Holubiev",
-    "email": "vlad@shelf.io",
-    "url": "https://shelf.io"
+    "name": "Mykyta Khmel",
+    "email": "hmelenok@gmail.com",
+    "url": "https://hmelenok.page"
   },
   "main": "lib",
   "types": "lib/index.d.ts",
